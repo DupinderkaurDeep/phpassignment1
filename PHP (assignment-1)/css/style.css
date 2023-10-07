@@ -1,0 +1,139 @@
+body 
+    {
+      /* styling for the entire page */
+  
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+    }
+
+    header{  /* styling for header*/
+        grid-area: header;
+        display: flex;
+        background-color: #856842;
+        font-weight: bold;
+        align-items: center;
+        height: 125px;
+    }
+    
+    header > div{ 
+        flex-grow: 1;
+        height: 115px;
+    }
+    
+    header > div > a > img{ /* logo in the header */
+        width: auto;
+        height: 100%;
+    }
+   
+    
+/*  main section is styled here */
+.main {
+    padding: 20px;
+  
+}
+
+
+
+
+/*  order pizza form is styled here */
+    .order-pizza {
+        background-color:#f9f6f0;
+        padding: 29px;
+        max-width: 598px;
+        margin: 0 auto;
+        border-radius: 9px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+
+/*  submit button is styled here */
+.submit-button {
+    text-align: center;
+    text-decoration: none;
+     width: 100%;
+     padding: 5px;
+    color: #fff;
+    display: block;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    background-color:#856842;
+    bottom: 5px;
+}
+
+/*  form input elements  are styled*/
+select, input[type="text"], input[type="email"], input[type="tel"] {
+    width: 99%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+h3 {
+    font-weight: bold;
+  
+}
+
+/*  label is styled */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+ /* here footer is styled*/
+.footer {
+    background-color: #856842;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 29px 0;
+    display: flex;
+   
+  }
+  
+ 
+  
+  .footer h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .footersocial li {
+    margin-right: 10px;
+  }
+
+  .footersocial p {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    
+  }
+  
+  
+  
+  .footersocial img {
+   
+    height: 29px;
+    width: 29px;
+  }
+/*  footer info and social sections  are added */
+  .footerinfo,
+  .footersocial {
+    flex-basis: 199px; 
+  }
+  
+
+  
